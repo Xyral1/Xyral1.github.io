@@ -1,0 +1,147 @@
+.navbar{
+    background-color: rgb(58, 15, 0);
+    font-family: 'title-font';
+    padding-left: 20px; 
+    padding-right: 20px;
+    font-size: 30px;
+}
+
+@font-face {
+    font-family: 'title-font';
+    src: url(CSAlstonDrawn-Regular_demo.otf);
+}
+
+@font-face {
+    font-family: 'Chalk-Font';
+    src: url(blackboard_font.otf);
+}
+
+@font-face {
+    font-family: 'bungee';
+    src: url(Bungee-Regular.ttf);
+}
+
+.heading{
+    font-family: 'Chalk-Font';
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    color: rgb(255, 255, 255);
+}
+.subhead{
+    font-family: 'Chalk-Font';
+    font-size: 35px;
+    
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    color: rgb(255, 255, 255);
+    
+}
+
+.blackboard{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+body{
+    margin: auto;
+    padding: auto;
+    background-image: url(blackboard-green.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+li{
+    display: inline-block;
+    margin-right: 75px; 
+    margin-left: 75;
+}
+
+.navitems{
+    display: flexbox;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+a:hover{
+    font-size: 37px;
+}
+
+.latte{
+    text-align: center;
+    font-family: 'Chalk-Font';
+    color: white;
+    width: 230px;
+    position: absolute;
+    top: 45%;
+    left: 20%;
+}
+
+.mocha{
+    text-align: center;
+    font-family: 'Chalk-Font';
+    color: white;
+    width: 230px;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+
+.black-coffee{
+    text-align: center;
+    font-family: 'Chalk-Font';
+    color: white;
+    width: 230px;
+    position: absolute;
+    top: 45%;
+    left: 70%;
+    
+}
+
+.page_head{
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Chalk-Font';
+    color: white;
+}
+
+button{
+    background-color: rgb(21, 255, 0);
+    font-family: 'bungee';
+    font-size: 30px;
+    color: black;
+    width: 120px;
+    height: 50px;
+    position: relative;
+    bottom: 15px;
+    border-style: none;
+    border-radius: 20px;
+}
